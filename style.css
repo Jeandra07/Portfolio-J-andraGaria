@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top:60px;
+    
+}
+
+@font-face {
+    font-family: "Bookman";
+    src: url("BookmanC-Demi.woff2") format("woff2");
+}
+
+* {
+    font-family: "Bookman", serif;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.2px;
+}
+nav {
+    background-color: #F5EBDD;
+    height:60px;
+    position: sticky;
+    top: 0;
+}
+
+
+.menu {
+    width: 80vw;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 15px;
+    z-index: 9999;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+nav li {
+    margin: 0 25px;
+}
+
+nav a {
+    text-decoration: none;
+    Color: black;
+   
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+
+.aboutMeText{
+    margin-top: 30px;
+}
+
+
+
+.aboutMe {
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 50vw
+   
+}
+
+.AboutMeIMG {
+    width: 450px;
+    height: 500px;
+    margin-left: 900px;
+    margin-top: -500px
+    
+}
+
+.headerFoto {
+    width: 100vw;
+    height: auto;
+    left: 0;
+    
+
+}
+
+.mijnWerk {
+    margin-top: 110px;
+    background-color:#DDD6C9 ;
+}
+
+.werk{
+    font-size:35px;
+
+
+}
+.moodboard{
+    height: 30vw;
+    margin-top: 50px;
+}
+
+.hair {
+    height: 30vw;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.brown{
+    height:30vw;
+    margin-left: 80px;
+}
+
+ .Bday{
+    height:30vw;
+    margin-left: 40px;
+}
+.cura{
+    height:30vw;
+}
+
+.herfst{
+    height:30vw;
+    margin-left: 80px;
+}
+
+.Interview{
+    flex-direction:row;
+    width: 60vw;
+    margin-left: 20px;
+}
+.interviewTitle{
+    margin-top:100px;
+}
+
+.vragenInter{
+   font-size: 17px;
+}
+
+.interviewIMG{
+    height:60vw;
+    margin-left:900px;
+   margin-top: -700px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin:10px;
+  margin-left:-10px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color:#DDD6C9;
+  color: white;
+}
+
+td {
+  background-color: white;
+}
+
+.School2{
+    margin-top:250px
+}
+
+.cinnamonIMG{
+    height: 30vw;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 5vw
+}
+
+.Web1{
+    margin-top: 200px;
+    padding-left: 20px;
+
+}
+
+.Web2{
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.Webtext{
+    width: 50vw;
+     padding-left: 20px;
+}
+video {
+    width: 650px;
+    height:500px;
+    border-radius: 10px;
+    margin-left:750px;
+    transform: translateY(-500px);
+}
+
+
+.p{
+    width: 50vw;
+}
+
+
+.jeandra-newsletter {
+    background-color: #eeeae6;
+    padding: 30px 45px 60px;
+    text-align: center;
+    border-radius: 0 0 55px 55px;
+    border-bottom: 1px solid #25232b;
+}
+
+.jeandra-newsletter h2 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.jeandra-form-box {
+    background-color: #DDD6C9;
+    padding: 50px;
+    border-radius: 30px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.jeandra-form-box label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.jeandra-name-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.jeandra-name-inputs div {
+    flex: 1;
+}
+
+.jeandra-form-box input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 25px;
+    background-color: #eeeae6;
+    margin-bottom: 15px;
+}
+
+.jeandra-form-box button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.jeandra-footer {
+    background-color: #F5EBDD;
+    padding: 40px 45px;
+    min-height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.jeandra-logo h2 {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+.jeandra-contact p,
+.jeandra-info p {
+    font-size: 12px;
+    margin: 3px 0;
+}
+
+@media (max-width: 600px) {
+    .jeandra-footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .jeandra-newsletter {
+        padding: 25px 15px 40px;
+    }
+
+    .jeandra-form-box {
+        padding: 25px;
+    }
+
+    .jeandra-name-inputs {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+
+
+
+
